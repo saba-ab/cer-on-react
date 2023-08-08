@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  z-index: 3;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1920px;
+  padding: 0 5%;
+  align-items: center;
+  background-color: rgb(20, 21, 24);
+  position: fixed;
+  color: white;
+  margin-bottom: 105px;
+}
+.header li:hover {
+  cursor: pointer;
+  color: rgb(120, 120, 120);
+}
+.navigation ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  font-size: 22px;
+}
+.logo img {
+  width: 120px;
+}
